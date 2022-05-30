@@ -1,0 +1,38 @@
+body {
+    padding: auto;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 400px;
+}
+.container {
+    margin-top: 20px;
+}
+
+#input-el {
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    border-radius: 2px;
+}
+
+.btn-success, .btn-danger, .btn-warning {
+    margin-top: 10px;
+    font-weight: bold;
+    width: 120px;
+}
+
+#list-el {
+    margin-top: 10px;   
+}
+ul li {
+    padding: 2px;
+    border-radius: 5px;
+    list-style: none;
+}
+ul {
+    padding-left: 0px;
+}
+ul li a {
+    color: #5f9341;
+    text-decoration: underline;
+}
